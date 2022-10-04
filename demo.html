@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="chanle.js"></script>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Hãy chọn chẵn hoặc lẻ</h1>
+    
+    <div id="div1">
+        <div id="div">
+            <iframe src="https://giphy.com/embed/ABn9FYVUMnOD0gKX8h" width="100" height="100" frameBorder="50" class="giphy-embed" allowFullScreen></iframe>
+            <iframe src="https://giphy.com/embed/ABn9FYVUMnOD0gKX8h" width="100" height="100" frameBorder="50" class="giphy-embed" allowFullScreen></iframe>
+        </div>
+        <div id="div2">
+            <button  id="chan" value="chan"  onclick="return confirm(`bạn sẽ chọn Tài?`),chan();" style="width: 200px">Tài</button>
+            <button id="le" value="le" onclick="return confirm(`bạn sẽ chọn Xỉu?`),le();" style="width: 200px">Xỉu</button>
+        </div>
+        <div id="div3">
+            <span id="output"></span>
+        </div>
+      
+        <div id="div4">
+            <button onclick="return quay();" style="width: 200px; height:50px ; font-size: large;" >Quay!</button>
+        </div>
+        <div id="div5">
+            <b id="result"></b>
+        </div>
+        <div  id="div6">
+            <b onclick="return again();" id="again"></b>
+        </div>
+    </div>
+    
+
+    <div id="load">
+
+    <div  class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+    
+  </body>
+</html>
